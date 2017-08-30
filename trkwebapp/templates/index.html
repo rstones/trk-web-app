@@ -12,13 +12,14 @@
 		<!--<script src="{{ url_for('static', filename='X/utils/xtk.js') }}"></script> -->
 		  <script src="{{ url_for('static', filename='X/lib/google-closure-library/closure/goog/base.js') }}"></script>
 		  <script src="{{ url_for('static', filename='X/xtk-deps.js') }}"></script>
-		  <script>goog.require('X.renderer2D'); goog.require('X.volume');</script>
+		  <script>goog.require('X.renderer3D'); goog.require('X.fibers');</script>
 		  
 		  <script src="{{ url_for('static', filename='trkwebapp.js') }}"></script>
 	</head>
 
     <body>
         Hello :)
+        <div id="trk-renderer" style="width: 400px; height: 400px; border: 1px solid lightgrey;"></div>
     </body>
 
 

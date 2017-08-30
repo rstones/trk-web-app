@@ -4,3 +4,5 @@
 __pycache__/
 
 trk-web-app-venv/
+
+data/
