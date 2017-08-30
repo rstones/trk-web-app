@@ -1,0 +1,3 @@
+[submodule "trkwebapp/static/X"]
+	path = trkwebapp/static/X
+	url = https://github.com/rstones/X.git

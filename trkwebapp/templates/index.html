@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<!-- <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">-->
+		<title>TRK Web App</title>
+		<script type=text/javascript>
+			$SCRIPT_ROOT = {{ request.script_root|tojson|safe }};
+		</script>
+		<script src="{{ url_for('static', filename='jquery.js') }}"></script>
+		
+		<!--<script src="{{ url_for('static', filename='X/utils/xtk.js') }}"></script> -->
+		  <script src="{{ url_for('static', filename='X/lib/google-closure-library/closure/goog/base.js') }}"></script>
+		  <script src="{{ url_for('static', filename='X/xtk-deps.js') }}"></script>
+		  <script>goog.require('X.renderer2D'); goog.require('X.volume');</script>
+		  
+		  <script src="{{ url_for('static', filename='trkwebapp.js') }}"></script>
+	</head>
+
+    <body>
+        Hello :)
+    </body>
+
+
+</html>

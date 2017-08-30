@@ -1,0 +1,6 @@
+.project
+.pydevproject
+
+__pycache__/
+
+trk-web-app-venv/
